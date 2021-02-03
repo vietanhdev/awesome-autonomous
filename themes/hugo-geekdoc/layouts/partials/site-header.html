@@ -1,0 +1,20 @@
+<header class="gdoc-header">
+    <div class="container flex align-center justify-between">
+        {{ if .MenuEnabled }}
+        <label for="menu-control" class="gdoc-nav__control">
+            <svg class="icon menu"><use xlink:href="#menu"></use></svg>
+            <svg class="icon arrow-back"><use xlink:href="#arrow_back"></use></svg>
+        </label>
+        {{ end }}
+        <a class="gdoc-header__link" href="{{ .Root.Site.BaseURL }}">
+            <span class="gdoc-brand flex">
+                <img class="gdoc-brand__img" src="{{ (default "brand.svg" .Root.Site.Params.GeekdocLogo) | relURL }}" alt="">
+                <p>{{ .Root.Site.Params.subtitle }}</p>
+            </span>
+        </a>
+        <a id="rightside-headerlogo" href="https://aicurious.io" target="_blank">
+            <img style="margin-left: auto; height: 2.2rem; display: flex;" src="/aicurious.svg" alt="">
+        </a>
+        
+    </div>
+</header>

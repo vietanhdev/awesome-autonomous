@@ -1,0 +1,9 @@
+{{ define "main" }}
+    {{ partial "page-header" . }}
+    <article class="gdoc-markdown">
+        {{ if eq .IsHome false }}
+        <h1>{{ partial "title" . }}</h1>
+        {{ end }}
+        {{ partial "content" . }}
+    </article>
+{{ end }}

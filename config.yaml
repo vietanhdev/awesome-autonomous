@@ -1,0 +1,33 @@
+---
+baseURL: https://auto.aicurious.io/
+title: The Awesome Learning Resources for Autonomous Vehicles
+theme: hugo-geekdoc
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+timeout: 180000
+
+# Geekdoc configuration
+disablePathToLower: true
+enableGitInfo: true
+
+# Needed for mermaid shortcodes
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 9
+
+params:
+  subtitle: "Towards Self-driving Vehicles"
+  geekdocLogo: "/media/logo.svg"
+
+  geekdocToC: 3
+
+  geekdocRepo: https://github.com/vietanhdev/awesome-autonomous
+  geekdocEditPath: edit/master/content
+
+  geekdocBreadcrumb: false
+  geekdocSearch: true
+  geekdocSearchShowParent: true

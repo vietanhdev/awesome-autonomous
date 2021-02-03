@@ -1,0 +1,87 @@
+.gdoc-nav--main > .gdoc-nav__list > li {
+    list-style: upper-alpha;
+    margin-left: 1.2rem;
+    font-weight: bold;
+}
+
+.gdoc-nav--main > .gdoc-nav__list > li > ul > li {
+    list-style: upper-roman;
+    margin-left: 1.2rem;
+    font-weight: bold;
+}
+
+.gdoc-nav--main > .gdoc-nav__list > li > ul > li > ul > li {
+    list-style: decimal;
+    font-weight: normal;
+}
+
+.gdoc-nav--main > .gdoc-nav__list > li > ul > li > ul > li > ul > li {
+    list-style: circle;
+}
+
+.gdoc-header {
+    background: rgb(255, 192, 192);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 30%, rgba(0, 21, 59, 0.5) 100%);
+    padding-top: 0.5rem;
+    color: #333;
+    border-bottom-width: 1px;
+    border-bottom-color: #ddd;
+    padding: 0;
+}
+
+
+.gdoc-brand p {
+    margin-top: 0.8rem;
+    display: none;
+    min-width: 20rem;
+}
+@media only screen and (min-width: 600px) {
+    .gdoc-brand {
+        margin-top: 1rem;;
+    }
+    .gdoc-brand p {
+        display: initial;
+    }
+}
+
+.gdoc-brand__img {
+    height: 2.4rem;
+    width: auto;
+    max-width: 100%;
+    display: block;
+}
+
+
+.gdoc-header__link * {
+    color: #555;
+    font-size: 1.0rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gdoc-footer {
+    background: #fafafa;
+    color: #888;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.gdoc-footer__item {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#rightside-headerlogo {
+    display: none;
+}
+@media only screen and (min-width: 800px) {
+    #rightside-headerlogo {
+        display: block;
+    }
+}
+
+
+.gdoc-markdown h1 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+}

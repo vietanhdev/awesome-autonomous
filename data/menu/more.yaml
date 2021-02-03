@@ -1,0 +1,13 @@
+---
+more:
+  - name: News
+    ref: "/posts"
+    icon: "notification"
+  - name: AICurious Blog
+    ref: "http://aicurious.io/"
+    external: true
+    icon: "path"
+  - name: "Github"
+    ref: "https://github.com/vietanhdev/awesome-autonomous"
+    external: true
+    icon: "github"
