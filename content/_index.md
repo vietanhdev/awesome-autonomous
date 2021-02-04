@@ -1,5 +1,5 @@
 ---
-title: Awesome Autonomous
+title: Home
 ---
 
 **Awesome Autonomous** is a curated list of awesome learning resources for Autonomous Vehicles, including autonomous robots and self-driving cars. It's an attempt to gather useful material in one place for everybody who wants to learn more about the field.
