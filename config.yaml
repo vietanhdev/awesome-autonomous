@@ -1,6 +1,6 @@
 ---
 baseURL: https://auto.aicurious.io/
-title: The Awesome Learning Resources for Autonomous Vehicles
+title: Awesome Self-Driving - The Awesome Learning Resources for Autonomous Vehicles
 theme: hugo-geekdoc
 pygmentsUseClasses: true
 pygmentsCodeFences: true
