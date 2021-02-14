@@ -8,7 +8,7 @@ weight: 30
 
 **Link:** <https://www.udacity.com/course/self-driving-car-fundamentals-featuring-apollo--ud0419>
 
-**My notes for this course:** <https://aicurious.io/posts/apollo-sdc-lessons-intro/>
+**AICurious's learning notes for this course:** <https://aicurious.io/posts/apollo-sdc-lessons-intro/>
 
 This is an introduction course to self-driving cars and Apollo platform. Through this course, you will be able to identify key parts of self-driving cars and get to know Apollo architecture. You will be able to utilize Apollo HD Map, localization, perception, prediction, planning and control, and start the learning path of building a self-driving car.
 

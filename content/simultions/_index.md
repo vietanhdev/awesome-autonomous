@@ -1,5 +1,5 @@
 ---
-title: "Simultions"
+title: "Simulations"
 weight: 50
 ---
 
