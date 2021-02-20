@@ -4,7 +4,9 @@ title: Home
 
 **Awesome Autonomous** is a curated list of awesome learning resources for Autonomous Vehicles, including autonomous robots and self-driving cars. It's an attempt to gather useful material in one place for everybody who wants to learn more about the field.
 
-Give me a star at [vietanhdev/awesome-autonomous](https://github.com/vietanhdev/awesome-autonomous) if you find this site interesting.
+Give me a star at [vietanhdev/awesome-autonomous](https://github.com/vietanhdev/awesome-autonomous) if you find this site helpful. All contributions are welcome.
+
+![Autonomous Tesla - Gif: Steph Davidson; Source: Tesla (4)](/autonomous.gif)
 
 ## How can I contribute to this repository?
 
