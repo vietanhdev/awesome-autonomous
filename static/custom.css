@@ -84,4 +84,23 @@
 .gdoc-markdown h1 {
     font-size: 1.8rem;
     line-height: 2rem;
+    color: #002344;
+}
+.gdoc-markdown h2 {
+    color: #0061bb;
+    border-bottom: 2px solid #ddd;
+    font-weight: bolder;
+}
+.gdoc-markdown h3 {
+    font-size: 1.35rem;
+}
+.gdoc-markdown h3::before {
+    content: "●";
+    color: #8ed08e;
+    margin-right: 0.5rem;
+}
+.gdoc-markdown h4::before {
+    content: "+ ";
+    color: #ff5e00;
+    margin-right: 0.5rem;
 }
